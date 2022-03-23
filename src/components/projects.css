@@ -6,7 +6,10 @@
     text-shadow: 0 0 5px #fff;
     padding: 1.5rem;
 }
+
 .iframe{
+    width: 90%;
+    height: 100vh;
     border-radius: 1rem;
     box-shadow: 0 0 10px 1px #98e8cd;
 }

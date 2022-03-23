@@ -32,8 +32,6 @@ const Projects = () => {
                         className='iframe'
                         src={data.link} 
                         frameborder="0"
-                        width='500'
-                        height={600}
                     ></iframe>
                 </a>
             </div>
