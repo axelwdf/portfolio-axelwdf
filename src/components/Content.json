@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Dilo con Pasteles",
+      "logo": "https://github.com/axelwdf/img-hub/blob/main/logo.jpeg?raw=true",
+      "link": "https://axelwdf.github.io/diloconpasteles/"
+    },
+    {
+      "name": "Quotes App",
+      "logo": "",
+      "link" : "https://axelwdf.github.io/ProyectOne/"
+    },
+    {
+      "name": "Weather App",
+      "logo": "",
+      "link": "https://axelwdf.github.io/weather-app/"
+    },
+    {
+      "name": "Rick and Morty App",
+      "logo": "",
+      "link": "https://axelwdf.github.io/morty-app/"
+    },
+    {
+      "name": "Crud Users App",
+      "logo": "",
+      "link": "https://axelwdf.github.io/crud-app/"
+    }
+  ]
