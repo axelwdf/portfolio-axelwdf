@@ -5,7 +5,7 @@ import './about.css';
 
 
 const AboutMe = () =>  {
-    const imgFB = 'https://scontent.fmex11-1.fna.fbcdn.net/v/t39.30808-6/273046386_131268119392345_6136063052876983759_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=9U4VB4pdP3oAX8bZJaB&_nc_ht=scontent.fmex11-1.fna&oh=00_AT8__5YKAE15_FgMJpj3PXrnb9r23fmX9iZPONhpyzT_pA&oe=623829E7';
+    const imgFB = `https://avatars.githubusercontent.com/u/95008306?s=400&u=ea03973160ffebb72568e9ee58c7e0f726960a43&v=4`;
     const p = "<p>";
     const pSlash = "</p>";
     return(
