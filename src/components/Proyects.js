@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
-import './projects.css';
 import * as Icon from 'react-bootstrap-icons';
 import React from "react";
 import { useState } from "react";
 import contenido from './Content.json';
+import '../styles/projects.css';
 
 const getRandom = () => Math.floor(Math.random() * contenido.length);
 
@@ -22,11 +22,11 @@ const Projects = () => {
 
     return(
         <div className="Projects">
-            <h2 className='projects-h2' >
+            <h2 className='projects-title' >
                {h2} My <span className='spans-title' >proyects {h2Slash} </span> 
             </h2>
             <div className="projects-container">
-                <h3 className='projects-h3' > {h3} {data.name} {h3Slash} </h3>
+                <h3 className='projects-title' > {h3} {data.name} {h3Slash} </h3>
                 <a href={data.link} >
                     <iframe 
                         className='iframe'

@@ -1,0 +1,20 @@
+.Footer{
+    padding: 0.5rem;
+    font-size: .8rem;
+    background-color:#4343D1;
+    color: #BDCDDB;
+}
+.social-cont{
+    /* background-color: #ffff; */
+    padding: 1rem;
+}
+.icons-footer{
+    color:  #fff;
+    width: 1.5rem;
+    height: 1.5rem;
+    filter: drop-shadow(0px 0px 1px #000);
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

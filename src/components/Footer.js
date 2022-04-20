@@ -1,6 +1,6 @@
 import React from "react";
 import * as Icon from 'react-bootstrap-icons';
-import './footer.css';
+import '../styles/footer.css';
 
 
 const Footer = () => {
@@ -12,10 +12,12 @@ const Footer = () => {
 
     return(
         <div className="Footer">
-            <h2>
-                {h2} Búscame en...{h2Slash}
-            </h2>
-                <div className="container">
+            <i>
+                <h2>
+                    {h2} Búscame en...{h2Slash}
+                </h2>
+            </i>
+                <div className="footer-container">
                     <div className="social-cont">
                         <a 
                             href={gh} 

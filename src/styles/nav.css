@@ -1,0 +1,14 @@
+.Nav{
+    background: #4343D1;
+    box-shadow: 0 0 50px 0 #4343D1;
+    filter: drop-shadow(0 20px 1px #4343D1);
+    font-size: .5rem;
+    color: #BDCDDB;
+    width: 90%;
+    padding: .5rem;
+    margin-top:1rem ;
+    border-radius: 0 1rem 1rem 0 ;
+}
+.Nav h1, p  {
+    margin: 1rem auto;
+}

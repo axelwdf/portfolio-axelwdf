@@ -1,6 +1,6 @@
 import React from "react";
-import * as Icon from 'react-bootstrap-icons';
-import './nav.css';
+// import * as Icon from 'react-bootstrap-icons';
+import '../styles/nav.css';
 
 
 
@@ -17,7 +17,7 @@ const Nav = () => {
             </h1>
             <i  >
                 <p className="nav-p" > 
-                    {p} My name is Axel 
+                    {p} My name is Axel and
                     <span className="spans-title" > i'am React Developer {pSlash} </span>
                 </p>
             </i>

@@ -1,0 +1,44 @@
+.Tech{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem;
+    font-size: .9rem;
+}
+.Tech li {
+    list-style: none;
+}
+.React {
+    margin: .5rem;
+    border-radius: .5rem;
+    transition: 1s;
+}
+.React:hover, .More-tech:hover {
+    border: 1px solid #000;
+    box-shadow: 0 0 10px 0px #000;
+}
+.button-more{
+    margin: 0 auto;
+    padding: .2rem;
+    margin: 1rem;
+    background: none;
+    border: 1px solid #000;
+    border-radius: .5rem;
+}
+/* Open */
+.More-tech  {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    margin: auto;
+    width: 10rem;
+    height: 10rem;
+    transform: translateX(250px);
+    transition: 1s linear;
+}
+.open{
+    position: relative;
+    transform: translateX(0);
+    margin: auto auto;
+}

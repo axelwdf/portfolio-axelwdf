@@ -1,0 +1,12 @@
+.AboutMe{
+    padding: 3rem;
+}
+.AboutMe, .AboutMe-photo{
+    border-radius: 50%;
+}
+.AboutMe-photo{
+    filter: drop-shadow(0px 0px 2px #000);
+}
+.AboutMe, .TextAboutMe-p {
+    font-size: .9rem ;
+}
