@@ -27,11 +27,11 @@ const Tech = () => {
                 <h2 className='React-title' >
                     Node Js
                 </h2>
-                <ul>
+                {/* <ul>
                     <li>Hooks y Custom Hooks</li>
                     <li>React Router</li>
                     <li>Redux</li>
-                </ul>
+                </ul> */}
             </div>
             <button className='button-more' onClick={Open} >
                 More
