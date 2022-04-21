@@ -18,7 +18,7 @@ const AboutMe = () =>  {
                 />
             </div>
             <div className="TextAboutMe">
-                <p className="semantic-target" >{p}</p>
+                <p className="semantic-TextTarget" >{p}</p>
                 <p className="TextAboutMe-p" >
                     <b>Bievenido a mi portafolio</b>, me llamo Axel y soy desarrollador <i>FontEnd</i>, 
                     especialmente enfocado en <i>React</i>, también tengo conocimiento en el área 
@@ -27,7 +27,7 @@ const AboutMe = () =>  {
                     estar trabajando juntos en un proyecto'.
                     
                 </p>
-                <p className="semantic-SlasTarget" >{pSlash}</p>
+                <p className="semantic-TextTarget" >{pSlash}</p>
             </div>
         </div>
     );

@@ -10,3 +10,40 @@
 .AboutMe, .TextAboutMe-p {
     font-size: .9rem ;
 }
+
+/* responsive */
+@media screen and (min-width: 450px) {
+    .AboutMe-photo{
+        width: 30vh;
+        height: 30vh;
+        display: flex;
+        margin: 0 auto;
+        transition: 1s all;
+    }
+    .AboutMe-photo:hover{
+        border-radius: 1rem;
+    }
+    .TextAboutMe{
+        border: 1px solid #000;
+        border-radius: .5rem;
+        padding: .8rem;
+        margin: 1rem;
+        transition: 2s all;
+    }
+    .TextAboutMe:hover{
+        box-shadow: 0 0 10px 0px;
+    }
+    .semantic-TextTarget{
+        font-size: .9rem;
+    }
+}
+@media screen and (min-width: 900px) {
+    .TextAboutMe{
+        width: 50%;
+        margin: 3rem auto;
+        padding: 5rem;
+    }
+    .TextAboutMe-p{
+        font-size: 1.1rem;
+    }
+}

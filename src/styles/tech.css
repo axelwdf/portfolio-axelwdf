@@ -42,3 +42,35 @@
     transform: translateX(0);
     margin: auto auto;
 }
+/* responsive */
+@media screen and (min-width: 450px) {
+    .button-more{
+        width: 25%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 750px) {
+    .React{
+        width: 25%;
+        margin: 1rem auto;
+    }
+    .Tech{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 900px) {
+    .React {
+        width: 25%;
+        margin: 3rem auto;
+        width: 50vh;
+        height: 25vh;
+        font-size: 1.2rem;
+    }
+    .Tech{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .button-more{
+        width: 20vh;
+        height: 20vh;
+    }
+}

@@ -12,3 +12,24 @@
 .Nav h1, p  {
     margin: 1rem auto;
 }
+/* responsive */
+@media screen and (min-width: 450px) {
+    .Nav{
+        align-items: center;
+    }
+    .Nav, p {
+      font-size: .6rem;
+    }
+    .nav-p {
+        font-size:.8rem ;
+    }
+}
+@media screen and (min-width: 900px) {
+    .Nav{
+        width: 150vh;
+        height: 20vh;
+        margin: 2rem auto;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+}

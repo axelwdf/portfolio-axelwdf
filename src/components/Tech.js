@@ -27,11 +27,10 @@ const Tech = () => {
                 <h2 className='React-title' >
                     Node Js
                 </h2>
-                {/* <ul>
-                    <li>Hooks y Custom Hooks</li>
-                    <li>React Router</li>
-                    <li>Redux</li>
-                </ul> */}
+                <ul>
+                    <li>Express</li>
+                    <li>Postman</li>
+                </ul>
             </div>
             <button className='button-more' onClick={Open} >
                 More
@@ -41,8 +40,6 @@ const Tech = () => {
                     <h2>More...</h2>
                     <ul>
                         <li>Git y Github</li>
-                        <li>Express</li>
-                        <li>Postman</li>
                     </ul>
                 </div>
             </div>
